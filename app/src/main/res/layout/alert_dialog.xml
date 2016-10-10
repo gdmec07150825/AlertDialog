@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="列表菜单"
+            android:id="@+id/textViewa1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="两个按钮"
+            android:id="@+id/buttona1"
+            android:layout_below="@+id/textViewa1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三个按钮"
+            android:id="@+id/buttona2"
+            android:layout_below="@+id/buttona1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="输入框"
+            android:id="@+id/buttona3"
+            android:layout_below="@+id/buttona2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="复选框"
+            android:id="@+id/buttona4"
+            android:layout_below="@+id/buttona3"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单选框"
+            android:id="@+id/buttona5"
+            android:layout_below="@+id/buttona4"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="列表框"
+            android:id="@+id/buttona6"
+            android:layout_below="@+id/buttona5"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义布局"
+            android:id="@+id/buttona7"
+            android:layout_below="@+id/buttona6"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
